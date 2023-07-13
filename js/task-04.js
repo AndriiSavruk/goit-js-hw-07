@@ -18,7 +18,7 @@ function createBoxes(amount) {
 function destroyBoxes() {
   let divs = ourDivs.querySelectorAll("div");
   divs.forEach( dv => dv.remove());
-  // ourDivs.innerHTML=``;
+  // ourDivs.innerHTML=`` ;
  
 }
 const crBtn = document.querySelector('button[data-create]');
